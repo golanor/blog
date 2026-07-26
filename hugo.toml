@@ -29,6 +29,7 @@ pygmentsUseClasses = true
 
 [params]
   env = "production"
+  math = true
   description = "בלוג טכני על תכנות, פיזיקה קוונטית ומה שביניהם"
   author = "Or Golan"
   defaultTheme = "auto"

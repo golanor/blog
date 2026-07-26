@@ -14,6 +14,17 @@
     unicode-bidi: isolate;
 }
 
+/* Equations are always LTR */
+mjx-container {
+    direction: ltr;
+}
+
+/* Bibliography entries (citeproc/CSL output) are English → LTR */
+.csl-bib-body {
+    direction: ltr;
+    text-align: left;
+}
+
 /* Dates / reading time render sanely in RTL */
 .post-meta,
 .entry-footer {
