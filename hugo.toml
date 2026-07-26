@@ -30,8 +30,8 @@ pygmentsUseClasses = true
 [params]
   env = "production"
   math = true
-  description = "בלוג טכני על תכנות, פיזיקה קוונטית ומה שביניהם"
-  author = "Or Golan"
+  description = "בלוג שאינו מעיד על תוכנו או על כותבו."
+  author = "אור גולן"
   defaultTheme = "auto"
   DateFormat = "2.1.2006"
   ShowReadingTime = true
@@ -41,7 +41,7 @@ pygmentsUseClasses = true
 
   [params.homeInfoParams]
     Title = "שלום 👋"
-    Content = "בלוג טכני בעברית — פייתון, ג׳וליה, ראסט ופיזיקה קוונטית."
+    Content = "בלוג זה נכתב כולו בemacs."
 
 [[menu.main]]
   identifier = "archives"
