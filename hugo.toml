@@ -1,0 +1,55 @@
+baseURL = "https://golanor.github.io/blog/"
+title = "הבלוג של אור גולן"
+theme = "PaperMod"
+
+defaultContentLanguage = "he"
+enableRobotsTXT = true
+enableEmoji = true
+pygmentsUseClasses = true
+
+[pagination]
+  pagerSize = 10
+
+[languages.he]
+  direction = "rtl"        # PaperMod → <html dir="rtl">
+  locale = "he"
+  label = "עברית"
+  weight = 1
+
+[markup.highlight]
+  noClasses = false
+  guessSyntax = false
+  lineNos = false
+
+[markup.goldmark.renderer]
+  unsafe = true            # ox-hugo emits raw HTML
+
+[caches.images]
+  dir = ":cacheDir/images"
+
+[params]
+  env = "production"
+  description = "בלוג טכני על תכנות, פיזיקה קוונטית ומה שביניהם"
+  author = "Or Golan"
+  defaultTheme = "auto"
+  DateFormat = "2.1.2006"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  ShowBreadCrumbs = true
+
+  [params.homeInfoParams]
+    Title = "שלום 👋"
+    Content = "בלוג טכני בעברית — פייתון, ג׳וליה, ראסט ופיזיקה קוונטית."
+
+[[menu.main]]
+  identifier = "archives"
+  name = "ארכיון"
+  url = "/archives/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name = "תגיות"
+  url = "/tags/"
+  weight = 20

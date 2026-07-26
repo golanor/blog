@@ -1,0 +1,32 @@
+#+title: הבלוג של אור גולן
+#+author: Or Golan
+#+hugo_base_dir: ..
+#+hugo_section: posts
+#+options: author:nil
+
+* Posts
+** שלום עולם: פוסט ראשון
+:PROPERTIES:
+:EXPORT_FILE_NAME: hello-world
+:EXPORT_DATE: 2026-07-26
+:END:
+
+ברוכים הבאים לבלוג! כאן אכתוב על תכנות, פיזיקה קוונטית ועל הכלים שאני
+משתמש בהם ביום-יום — למשל =org-mode=, פייתון ו-Julia.
+
+הנה דוגמה לקוד פייתון בתוך פוסט בעברית:
+
+#+begin_src python
+def hello(name: str) -> str:
+    """Greet someone, bidirectionally."""
+    return f"שלום, {name}!"
+
+print(hello("עולם"))
+#+end_src
+
+והנה טבלה קטנה עם מונחים טכניים באנגלית:
+
+| מונח באנגלית | תרגום        |
+|--------------+---------------|
+| compiler     | מהדר          |
+| thread       | חוט / תהליכון |

@@ -1,0 +1,21 @@
+/* Code is always LTR, even inside RTL paragraphs */
+.post-content pre,
+.md-content pre,
+.post-content .highlight,
+.md-content .highlight {
+    direction: ltr;
+    text-align: left;
+}
+
+/* Inline code isolated so surrounding Hebrew punctuation isn't reordered */
+.post-content code,
+.md-content code {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+/* Dates / reading time render sanely in RTL */
+.post-meta,
+.entry-footer {
+    unicode-bidi: plaintext;
+}
