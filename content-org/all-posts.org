@@ -3,6 +3,8 @@
 #+hugo_base_dir: ..
 #+hugo_section: posts
 #+options: author:nil
+#+bibliography: ~/Documents/personal_files/my_library.bib
+#+cite_export: csl
 
 * Posts
 ** TODO הפיסיקה של השעונים, חלק ראשון
