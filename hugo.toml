@@ -1,8 +1,8 @@
 baseURL = "https://golanor.github.io/blog/"
-title = "הבלוג של אור גולן"
+title = "Or Golan's Blog"
 theme = "PaperMod"
 
-defaultContentLanguage = "he"
+defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true
 pygmentsUseClasses = true
@@ -10,11 +10,87 @@ pygmentsUseClasses = true
 [pagination]
   pagerSize = 10
 
+# ── Languages ─────────────────────────────────────────────────────────────
+# English lives at /blog/ (default language, no subdir); Hebrew at /blog/he/.
+# Content language is chosen by file name: foo.md → English, foo.he.md → Hebrew.
+# The two trees are fully separate: each language has its own home feed,
+# menus, archives, and tag pages.
+
 [languages.he]
   direction = "rtl"        # PaperMod → <html dir="rtl">
-  locale = "he"
-  label = "עברית"
+  languageCode = "he"
+  languageName = "עברית"
+  weight = 2
+  title = "הבלוג של אור גולן"
+
+  [languages.he.params]
+    author = "אור גולן"
+    description = "בלוג שאינו מעיד על תוכנו או על כותבו."
+    [languages.he.params.homeInfoParams]
+      Title = "שלום 👋"
+      Content = "בלוג זה נכתב כולו בemacs."
+
+  [[languages.he.menu.main]]
+    identifier = "archives"
+    name = "ארכיון"
+    url = "archives/"
+    weight = 10
+
+  [[languages.he.menu.main]]
+    identifier = "tags"
+    name = "תגיות"
+    url = "tags/"
+    weight = 20
+
+  [[languages.he.menu.main]]
+    identifier = "about"
+    name = "עליי"
+    url = "about/"
+    weight = 30
+
+  [[languages.he.menu.main]]
+    identifier = "publications"
+    name = "פרסומים"
+    url = "publications/"
+    weight = 40
+
+[languages.en]
+  direction = "ltr"
+  languageCode = "en"
+  languageName = "English"
   weight = 1
+  title = "Or Golan's Blog"
+
+  [languages.en.params]
+    author = "Or Golan"
+    description = "A blog that says nothing about its content or its author."
+    [languages.en.params.homeInfoParams]
+      Title = "Hello 👋"
+      Content = "This blog is written entirely in Emacs."
+
+  [[languages.en.menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "archives/"
+    weight = 10
+
+  [[languages.en.menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "tags/"
+    weight = 20
+
+  [[languages.en.menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "about/"
+    weight = 30
+
+  [[languages.en.menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "publications/"
+    weight = 40
 
 [markup.highlight]
   noClasses = false
@@ -30,27 +106,12 @@ pygmentsUseClasses = true
 [params]
   env = "production"
   math = true
-  description = "בלוג שאינו מעיד על תוכנו או על כותבו."
-  author = "אור גולן"
   defaultTheme = "auto"
   DateFormat = "2.1.2006"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowToc = true
   ShowBreadCrumbs = true
-
-  [params.homeInfoParams]
-    Title = "שלום 👋"
-    Content = "בלוג זה נכתב כולו בemacs."
-
-[[menu.main]]
-  identifier = "archives"
-  name = "ארכיון"
-  url = "/archives/"
-  weight = 10
-
-[[menu.main]]
-  identifier = "tags"
-  name = "תגיות"
-  url = "/tags/"
-  weight = 20
+  # Show the language switcher (עברית/English) in the header for pages that
+  # have a translation; the menus above cover the rest.
+  displayFullLangName = true

@@ -1,3 +1,3 @@
 ---
-title: "רשומות"
+title: "Posts"
 ---

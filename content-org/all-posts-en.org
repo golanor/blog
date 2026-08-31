@@ -1,0 +1,22 @@
+#+title: Or Golan's Blog
+#+author: Or Golan
+#+hugo_base_dir: ..
+#+hugo_section: posts
+#+options: author:nil
+#+bibliography: ~/Documents/personal_files/my_library.bib
+#+cite_export: csl
+
+# English posts. English is the default language, so no suffix is needed
+# (Hugo picks language by file name: foo.md → English, foo.he.md → Hebrew).
+# To publish a post as a translation of a Hebrew one, use the same base
+# name as the Hebrew post without the `.he` suffix — PaperMod will then
+# show a language-switch link between the two.
+
+* Posts
+** TODO Hello world: first post
+:PROPERTIES:
+:EXPORT_FILE_NAME: hello-world
+:EXPORT_DATE: 2026-08-19
+:END:
+
+Welcome to the English side of the blog!

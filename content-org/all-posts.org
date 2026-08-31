@@ -6,10 +6,14 @@
 #+bibliography: ~/Documents/personal_files/my_library.bib
 #+cite_export: csl
 
+# Hebrew posts. The `.he` suffix in EXPORT_FILE_NAME routes the exported
+# file to the Hebrew site (Hugo picks language by file name:
+# foo.md → English, foo.he.md → Hebrew).
+
 * Posts
 ** TODO הפיסיקה של השעונים, חלק ראשון
 :PROPERTIES:
-:EXPORT_FILE_NAME: physics_of_time_keeping_part_1
+:EXPORT_FILE_NAME: physics_of_time_keeping_part_1.he
 :EXPORT_DATE: 2026-07-26
 :END:
 היסטורית, שעונים ומדידת זמן נעשתה באחת משתי דרכים. הדרך הקלה ביותר להבנה היא מדידה של תנועה של חומר ממקום למקום. הדוגמה הקלאסית היא של שעון חול, בו אנחנו שמים מספר של גרגרי חול בצד אחד, ומגדירים פרק זמן (למשל 5 דקות) כזמן שלוקח לכל הגרגרים לעבור מתא אחד לתא אחר. דוגמאות נוספות כוללות נרות עם זמן בערה מוגדר, או שעוני מים שבהם מים מחליפים את החול כחומר הנע ממקום למקום.
@@ -17,7 +21,7 @@
 ברשימה זו נתמקד בשעונים המודדים תנועת חומר ממקום למקום. נרצה להבין כיצד הם עובדים, את הדיוק שלהם, את גורמי השגיאה שלהם, ואת ההתפתחויות הטכנלוגיות סביבם.
 ** שלום עולם: רשומה ראשונה
 :PROPERTIES:
-:EXPORT_FILE_NAME: hello-world
+:EXPORT_FILE_NAME: hello-world.he
 :EXPORT_DATE: 2026-07-26
 :END:
 
