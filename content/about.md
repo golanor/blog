@@ -15,4 +15,4 @@ These days I'm a PhD student in Retzker's group at the Hebrew University of Jeru
 
 This blog is where I write about whatever I happen to be thinking through: physics, quantum computing, and the way tools like AI are changing how we learn and work.
 
-You can find me on [GitHub](https://github.com/golanor) and [X](https://x.com/orgolan).
+You can find me on [GitHub](https://github.com/golanor), [X](https://x.com/orgolan), [Bluesky](https://bsky.app/profile/orgq.bsky.social), [Google Scholar](https://scholar.google.com/citations?user=lQA4-qYAAAAJ&hl=en), and [LinkedIn](https://www.linkedin.com/in/golanor/).

@@ -14,4 +14,4 @@ hidemeta: true
 
 בבלוג הזה אני כותב על מה שאני מנסה לחשוב עליו באותו רגע: פיזיקה, מחשוב קוונטי, והדרך שבה כלים כמו בינה מלאכותית משנים את האופן שבו אנחנו לומדים ועובדים.
 
-אפשר למצוא אותי ב-[GitHub](https://github.com/golanor) וב-[X](https://x.com/orgolan).
+אפשר למצוא אותי ב-[GitHub](https://github.com/golanor), ב-[X](https://x.com/orgolan), ב-[Bluesky](https://bsky.app/profile/orgq.bsky.social), ב-[Google Scholar](https://scholar.google.com/citations?user=lQA4-qYAAAAJ&hl=en) וב-[LinkedIn](https://www.linkedin.com/in/golanor/).
